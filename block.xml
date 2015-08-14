@@ -1,0 +1,286 @@
+﻿<AppLockerPolicy Version="1">
+    <RuleCollection Type="Dll" EnforcementMode="NotConfigured" />
+    <RuleCollection Type="Exe" EnforcementMode="Enabled">
+        <FilePublisherRule Id="19b6ae09-1a65-3707-cb5f-91e0af523108" Name="CNET" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+            <Conditions>
+                <FilePublisherCondition PublisherName="O=CBS INTERACTIVE, L=SAN FRANCISCO, S=CALIFORNIA, C=US" ProductName="*" BinaryName="*">
+                    <BinaryVersionRange LowSection="*" HighSection="*" />
+                </FilePublisherCondition>
+            </Conditions>
+        </FilePublisherRule>
+        <FilePublisherRule Id="3701715b-a211-ff1e-7668-129691f0f8a4" Name="Yandex" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+            <Conditions>
+                <FilePublisherCondition PublisherName="O=OOO YANDEX, L=MOSCOW, S=MOSCOW, C=RU" ProductName="*" BinaryName="*">
+                    <BinaryVersionRange LowSection="*" HighSection="*" />
+                </FilePublisherCondition>
+            </Conditions>
+        </FilePublisherRule>
+        <FilePublisherRule Id="46914bbc-204f-300a-6035-90e81e4b6c44" Name="AOL" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+            <Conditions>
+                <FilePublisherCondition PublisherName="O=AOL INC., L=DULLES, S=VIRGINIA, C=US" ProductName="*" BinaryName="*">
+                    <BinaryVersionRange LowSection="*" HighSection="*" />
+                </FilePublisherCondition>
+            </Conditions>
+        </FilePublisherRule>
+        <FilePublisherRule Id="5633511a-d7f0-fc53-4efd-48bab71a5d7e" Name="SweetIM" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+            <Conditions>
+                <FilePublisherCondition PublisherName="O=SWEETIM TECHNOLOGIES LTD, L=RA'ANANA, S=ISRAEL, C=IL" ProductName="*" BinaryName="*">
+                    <BinaryVersionRange LowSection="*" HighSection="*" />
+                </FilePublisherCondition>
+            </Conditions>
+        </FilePublisherRule>
+        <FilePublisherRule Id="63432a8b-bb11-cf87-d9e0-99f3c31519c6" Name="Uniblue" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+            <Conditions>
+                <FilePublisherCondition PublisherName="O=UNIBLUE SYSTEMS, L=MSIDA, S=MSIDA, C=MT" ProductName="*" BinaryName="*">
+                    <BinaryVersionRange LowSection="*" HighSection="*" />
+                </FilePublisherCondition>
+            </Conditions>
+        </FilePublisherRule>
+        <FilePublisherRule Id="9428d01d-597b-d0f4-4467-1e853dd706f6" Name="ASK" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+            <Conditions>
+                <FilePublisherCondition PublisherName="O=ASK.COM, L=OAKLAND, S=CALIFORNIA, C=US" ProductName="*" BinaryName="*">
+                    <BinaryVersionRange LowSection="*" HighSection="*" />
+                </FilePublisherCondition>
+            </Conditions>
+        </FilePublisherRule>
+        <FilePublisherRule Id="a3b33e8f-62de-0e8e-cc24-b8b16193adbc" Name="Mail" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+            <Conditions>
+                <FilePublisherCondition PublisherName="O=LLC MAIL.RU, L=MOSCOW, S=MOSCOW, C=RU" ProductName="*" BinaryName="*">
+                    <BinaryVersionRange LowSection="*" HighSection="*" />
+                </FilePublisherCondition>
+            </Conditions>
+        </FilePublisherRule>
+        <FilePublisherRule Id="d6a01c41-0e6e-7c59-6e3a-5145139d1381" Name="Messenger Plus" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+            <Conditions>
+                <FilePublisherCondition PublisherName="O=YUNA SOFTWARE LIMITED, L=ST. HELIER, S=JERSEY, C=GB" ProductName="*" BinaryName="*">
+                    <BinaryVersionRange LowSection="*" HighSection="*" />
+                </FilePublisherCondition>
+            </Conditions>
+        </FilePublisherRule>
+        <FilePublisherRule Id="fce59a6f-e89d-23f8-5286-f4999ef2e72b" Name="MediaGet" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+            <Conditions>
+                <FilePublisherCondition PublisherName="O=MEDIA GET LLC, L=SAINT-PETERSBURG, S=RUSSIA, C=RU" ProductName="*" BinaryName="*">
+                    <BinaryVersionRange LowSection="*" HighSection="*" />
+                </FilePublisherCondition>
+            </Conditions>
+        </FilePublisherRule>
+        <FilePublisherRule Id="ff5c450e-44a7-4f31-ab14-093de96947bb" Name="Reg Organizer" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+            <Conditions>
+                <FilePublisherCondition PublisherName="O=KONSTANTIN POLYAKOV, L=EKATERINBURG, S=N/A, C=RU" ProductName="*" BinaryName="*">
+                    <BinaryVersionRange LowSection="*" HighSection="*" />
+                </FilePublisherCondition>
+            </Conditions>
+        </FilePublisherRule>
+        <FilePublisherRule Id="E7980077-85FA-5B81-F712-EE53B2F78986" Name="Hamster" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+            <Conditions>
+                <FilePublisherCondition PublisherName="O=HAMSTER SOFT, L=MOSCOW, S=MOSCOW, C=RU" ProductName="*" BinaryName="*">
+                    <BinaryVersionRange LowSection="*" HighSection="*" />
+                </FilePublisherCondition>
+            </Conditions>
+        </FilePublisherRule>
+<FilePublisherRule Id="1853b5f1-f3b7-4b84-b59d-7d233cfcfc9b" Name="2GISTrayNotifier" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=DOUBLEGIS, L=NOVOSIBIRSK, S=NOVOSIBIRSKAYA OBLAST', C=RU" ProductName="2ГИС" BinaryName="2GISTRAYNOTIFIER.EXE">
+          <BinaryVersionRange LowSection="1.0.0.0" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    
+   
+    <FilePublisherRule Id="4627afe3-3034-b375-a917-a86534fdd7ff" Name="McAfee" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MCAFEE, INC., L=SANTA CLARA, S=CALIFORNIA, C=US" ProductName="*" BinaryName="*">
+          <BinaryVersionRange LowSection="*" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    
+   
+    
+    <FilePublisherRule Id="b302bc38-50db-cd57-430a-05dd7b4a3a77" Name="AlterGeo" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=WI2GEO LTD, L=MOSCOW, S=MOSCOW, C=RU" ProductName="*" BinaryName="*">
+          <BinaryVersionRange LowSection="*" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="bdbb131e-b1d2-4704-ac90-cb4af6305af9" Name="PortRu" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=OOO PORT.RU, L=MOSCOW, S=MOSCOW, C=RU" ProductName="*" BinaryName="*">
+          <BinaryVersionRange LowSection="*" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="bfd28866-3d3d-ae66-f120-2bb6211f41ba" Name="Symantec" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=SYMANTEC CORPORATION, L=SANTA MONICA, S=CALIFORNIA, C=US" ProductName="*" BinaryName="*">
+          <BinaryVersionRange LowSection="*" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>    
+
+    
+    <FilePublisherRule Id="19f3c374-928a-09c6-697c-d2a8759c5281" Name="AnVir" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=ANVIR SOFTWARE, L=MOSCOW, S=MOSCOW, C=RU" ProductName="*" BinaryName="*">
+          <BinaryVersionRange LowSection="*" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+        <FilePathRule Id="921cc481-6e17-4653-8f75-050b80acca20" Name="(правило по умолчанию) Все файлы, расположенные в папке &quot;Program Files&quot;" Description="Разрешает группе &quot;Все&quot; запускать приложения, расположенные в папке &quot;Program Files&quot;." UserOrGroupSid="S-1-1-0" Action="Allow">
+            <Conditions>
+                <FilePathCondition Path="%PROGRAMFILES%\*" />
+            </Conditions>
+        </FilePathRule>
+        <FilePathRule Id="a61c8b2c-a319-4cd0-9690-d2177cad7b51" Name="(правило по умолчанию) Все файлы, расположенные в папке &quot;Windows&quot;" Description="Разрешает группе &quot;Все&quot; запускать приложения, расположенные в папке &quot;Windows&quot;." UserOrGroupSid="S-1-1-0" Action="Allow">
+            <Conditions>
+                <FilePathCondition Path="%WINDIR%\*" />
+            </Conditions>
+        </FilePathRule>
+        <FilePathRule Id="fd686d83-a829-4351-8ff4-27c7de5755d2" Name="(правило по умолчанию) Все файлы" Description="Разрешает локальным администраторам запускать любые приложения." UserOrGroupSid="S-1-5-32-544" Action="Allow">
+            <Conditions>
+                <FilePathCondition Path="*" />
+            </Conditions>
+        </FilePathRule>
+    </RuleCollection>
+    <RuleCollection Type="Msi" EnforcementMode="Enabled">
+        <FilePublisherRule Id="0447f5bd-8a5a-2d9f-ad19-574ca0739de8" Name="ASK" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+            <Conditions>
+                <FilePublisherCondition PublisherName="O=ASK.COM, L=OAKLAND, S=CALIFORNIA, C=US" ProductName="*" BinaryName="*">
+                    <BinaryVersionRange LowSection="*" HighSection="*" />
+                </FilePublisherCondition>
+            </Conditions>
+        </FilePublisherRule>
+        <FilePublisherRule Id="1d0108dd-b76d-ee4c-d6e7-8196420a7da7" Name="MediaGet" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+            <Conditions>
+                <FilePublisherCondition PublisherName="O=MEDIA GET LLC, L=SAINT-PETERSBURG, S=RUSSIA, C=RU" ProductName="*" BinaryName="*">
+                    <BinaryVersionRange LowSection="*" HighSection="*" />
+                </FilePublisherCondition>
+            </Conditions>
+        </FilePublisherRule>
+        <FilePublisherRule Id="361d7116-e31f-7225-c13b-bf8b5f875b3a" Name="Yandex" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+            <Conditions>
+                <FilePublisherCondition PublisherName="O=OOO YANDEX, L=MOSCOW, S=MOSCOW, C=RU" ProductName="*" BinaryName="*">
+                    <BinaryVersionRange LowSection="*" HighSection="*" />
+                </FilePublisherCondition>
+            </Conditions>
+        </FilePublisherRule>
+        <FilePublisherRule Id="5315aa39-b92f-c5b6-0d1c-bd835ad0e184" Name="Mail" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+            <Conditions>
+                <FilePublisherCondition PublisherName="O=LLC MAIL.RU, L=MOSCOW, S=MOSCOW, C=RU" ProductName="*" BinaryName="*">
+                    <BinaryVersionRange LowSection="*" HighSection="*" />
+                </FilePublisherCondition>
+            </Conditions>
+        </FilePublisherRule>
+        <FilePublisherRule Id="643d7a07-5c3e-2434-7739-7ff3a1957475" Name="Reg Organizer" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+            <Conditions>
+                <FilePublisherCondition PublisherName="O=KONSTANTIN POLYAKOV, L=EKATERINBURG, S=N/A, C=RU" ProductName="*" BinaryName="*">
+                    <BinaryVersionRange LowSection="*" HighSection="*" />
+                </FilePublisherCondition>
+            </Conditions>
+        </FilePublisherRule>
+        <FilePublisherRule Id="9a48cbbe-3b20-d59b-d87d-4dbbbbabcd2a" Name="AOL" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+            <Conditions>
+                <FilePublisherCondition PublisherName="O=AOL INC., L=DULLES, S=VIRGINIA, C=US" ProductName="*" BinaryName="*">
+                    <BinaryVersionRange LowSection="*" HighSection="*" />
+                </FilePublisherCondition>
+            </Conditions>
+        </FilePublisherRule>
+        <FilePublisherRule Id="b755212e-78c1-3244-3d75-6dccc5692553" Name="SweetIM" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+            <Conditions>
+                <FilePublisherCondition PublisherName="O=SWEETIM TECHNOLOGIES LTD, L=RA'ANANA, S=ISRAEL, C=IL" ProductName="*" BinaryName="*">
+                    <BinaryVersionRange LowSection="*" HighSection="*" />
+                </FilePublisherCondition>
+            </Conditions>
+        </FilePublisherRule>
+        <FilePublisherRule Id="b7af7102-efde-4369-8a89-7a6a392d1473" Name="(правило по умолчанию) Все файлы установщика Windows c цифровой подписью" Description="Разрешает группе &quot;Все&quot; выполнять файлы установщика Windows с цифровой подписью." UserOrGroupSid="S-1-1-0" Action="Allow">
+            <Conditions>
+                <FilePublisherCondition PublisherName="*" ProductName="*" BinaryName="*">
+                    <BinaryVersionRange LowSection="0.0.0.0" HighSection="*" />
+                </FilePublisherCondition>
+            </Conditions>
+        </FilePublisherRule>
+        <FilePublisherRule Id="c8a2d46f-0634-cdff-307e-2bc7a909a8e3" Name="Messenger Plus" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+            <Conditions>
+                <FilePublisherCondition PublisherName="O=YUNA SOFTWARE LIMITED, L=ST. HELIER, S=JERSEY, C=GB" ProductName="*" BinaryName="*">
+                    <BinaryVersionRange LowSection="*" HighSection="*" />
+                </FilePublisherCondition>
+            </Conditions>
+        </FilePublisherRule>
+        <FilePublisherRule Id="e3763c39-e775-0913-afe7-dc335aef7c76" Name="CNET" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+            <Conditions>
+                <FilePublisherCondition PublisherName="O=CBS INTERACTIVE, L=SAN FRANCISCO, S=CALIFORNIA, C=US" ProductName="*" BinaryName="*">
+                    <BinaryVersionRange LowSection="*" HighSection="*" />
+                </FilePublisherCondition>
+            </Conditions>
+        </FilePublisherRule>
+        <FilePublisherRule Id="eb83ea8e-cf5d-64e6-5dc9-da63a40534d7" Name="Uniblue" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+            <Conditions>
+                <FilePublisherCondition PublisherName="O=UNIBLUE SYSTEMS, L=MSIDA, S=MSIDA, C=MT" ProductName="*" BinaryName="*">
+                    <BinaryVersionRange LowSection="*" HighSection="*" />
+                </FilePublisherCondition>
+            </Conditions>
+        </FilePublisherRule>
+        <FilePublisherRule Id="99703899-BCB7-2EDC-2700-7F62BB6DE87F" Name="Hamster" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+            <Conditions>
+                <FilePublisherCondition PublisherName="O=HAMSTER SOFT, L=MOSCOW, S=MOSCOW, C=RU" ProductName="*" BinaryName="*">
+                    <BinaryVersionRange LowSection="*" HighSection="*" />
+                </FilePublisherCondition>
+            </Conditions>
+        </FilePublisherRule>
+        <FilePathRule Id="5b290184-345a-4453-b184-45305f6d9a54" Name="(правило по умолчанию) Все файлы установщика Windows из каталога &quot;%systemdrive%\Windows\Installer&quot;" Description="Разрешает группе &quot;Все&quot; выполнять файлы установщика Windows с цифровой подписью, расположенные в каталоге из каталога &quot;%systemdrive%\Windows\Installer&quot;." UserOrGroupSid="S-1-1-0" Action="Allow">
+            <Conditions>
+                <FilePathCondition Path="%WINDIR%\Installer\*" />
+            </Conditions>
+        </FilePathRule>
+        <FilePathRule Id="64ad46ff-0d71-4fa0-a30b-3f3d30c5433d" Name="(правило по умолчанию) Все файлы установщика Windows" Description="Разрешает локальным администраторам запускать любые файлы установщика Windows." UserOrGroupSid="S-1-5-32-544" Action="Allow">
+            <Conditions>
+                <FilePathCondition Path="*.*" />
+            </Conditions>
+        </FilePathRule>
+
+    
+     <FilePublisherRule Id="444cbc79-3ee1-b0d2-db66-1e8e3be5651e" Name="AnVir" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=ANVIR SOFTWARE, L=MOSCOW, S=MOSCOW, C=RU" ProductName="*" BinaryName="*">
+          <BinaryVersionRange LowSection="*" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>      
+    </FilePublisherRule>
+   
+    <FilePublisherRule Id="70b45e67-cea9-c02a-2aca-6c3a575ccee2" Name="PortRu" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=OOO PORT.RU, L=MOSCOW, S=MOSCOW, C=RU" ProductName="*" BinaryName="*">
+          <BinaryVersionRange LowSection="*" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    
+      
+    <FilePublisherRule Id="a02dea82-bbad-4e9c-ba18-034092826ff4" Name="AlterGeo" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=WI2GEO LTD, L=MOSCOW, S=MOSCOW, C=RU" ProductName="*" BinaryName="*">
+          <BinaryVersionRange LowSection="*" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    
+    <FilePublisherRule Id="ba4631cf-ab8a-7d3b-144e-6e923e5eaa89" Name="Symantec" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=SYMANTEC CORPORATION, L=SANTA MONICA, S=CALIFORNIA, C=US" ProductName="*" BinaryName="*">
+          <BinaryVersionRange LowSection="*" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="c2a62dd9-e7de-338a-fb17-c4e96092284c" Name="McAfee" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MCAFEE, INC., L=SANTA CLARA, S=CALIFORNIA, C=US" ProductName="*" BinaryName="*">
+          <BinaryVersionRange LowSection="*" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>    
+   
+        
+    </RuleCollection>
+    <RuleCollection Type="Script" EnforcementMode="NotConfigured" />
+</AppLockerPolicy>
